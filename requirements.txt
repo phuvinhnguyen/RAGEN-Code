@@ -12,7 +12,6 @@ torchdata
 gym
 gymnasium
 gymnasium[toy-text]
-gym_sokoban
 gym-sokoban
 
 # Data and utilities
