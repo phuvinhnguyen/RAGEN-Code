@@ -20,7 +20,7 @@ REGISTERED_ENVS = {
     'frozen_lake': FrozenLakeEnv,
     # 'alfworld': AlfredTXTEnv,
     'metamathqa': MetaMathQAEnv,
-    'swe': SWEEnv,
+    # 'swe': SWEEnv,
 }
 
 REGISTERED_ENV_CONFIGS = {
@@ -30,7 +30,7 @@ REGISTERED_ENV_CONFIGS = {
     'frozen_lake': FrozenLakeEnvConfig,
     # 'alfworld': AlfredEnvConfig,
     'metamathqa': MetaMathQAEnvConfig,
-    'swe': SWEEnvConfig,
+    # 'swe': SWEEnvConfig,
 }
 
 try:
