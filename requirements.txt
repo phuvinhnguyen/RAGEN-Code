@@ -1,0 +1,70 @@
+# Core ML/AI packages
+torch==2.6.0
+transformers
+accelerate
+peft
+flash-attn==2.7.4.post1
+vllm==0.8.2
+tensordict>=0.8.0,<0.9.0
+torchdata
+
+# RL and environment packages
+gym
+gymnasium
+gymnasium[toy-text]
+gym_sokoban
+gym-sokoban
+
+# Data and utilities
+numpy
+pandas
+datasets
+pyarrow>=15.0.0
+huggingface_hub
+dill
+pybind11
+
+# Configuration and orchestration
+hydra-core
+omegaconf
+ray>=2.10
+codetiming
+tqdm
+
+# LLM API providers
+openai
+anthropic
+together
+
+# Web interface
+gradio
+
+# NLP and text processing
+spacy
+pylatexenc
+
+# Development and debugging
+IPython
+matplotlib
+debugpy
+pytest
+
+# Experiment tracking
+wandb
+swanlab
+
+# Core framework
+verl==0.4.0
+
+# Optional webshop dependencies (commented out since webshop-minimal is empty)
+# -r external/webshop-minimal/requirements.txt
+
+# Additional system dependencies (install via conda/apt)
+# conda install -c pytorch faiss-cpu -y
+# conda install -c conda-forge openjdk=21 maven -y
+# conda install conda-forge::gdown
+# sudo apt install default-jdk
+
+# Spacy models (install after spacy)
+# python -m spacy download en_core_web_sm
+# python -m spacy download en_core_web_lg
