@@ -98,7 +98,12 @@ trainer:
   generations_to_log_to_wandb: 
     train: 128 # TODO: will be implemented
     val: 20
-  logger: [ 'console', 'wandb' ]
+  logger: [ 'console' ]
+  default_local_dir: /home/phuvinhnguyen812002@gmail.com/Projects/V004_LiteCoder/RAGEN-Code/
+  remove_previous_ckpt_in_save: True
+  max_actor_ckpt_to_keep: 1
+  max_critic_ckpt_to_keep: 1
+  default_hdfs_dir: /home/phuvinhnguyen812002@gmail.com/Projects/V004_LiteCoder/RAGEN-Code/
 
 agent_proxy:
   max_context_window: -1 # set a value > 0 to enable context window for long trajectory
